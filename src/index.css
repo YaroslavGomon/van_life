@@ -59,6 +59,12 @@ header a:hover {
   text-decoration: underline;
 }
 
+header a.active {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #161616;
+}
+
 .link-button {
   display: inline-block;
   text-align: center;
@@ -202,6 +208,7 @@ header a:hover {
   background-color: #ffead0;
   color: #4d4d4d;
   transition: 200ms all cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .van-type:hover {
@@ -301,6 +308,7 @@ i[class*='van-type-'] {
   font-size: 1.125rem;
 }
 
+/* HOST STYLE */
 .host-nav {
   display: flex;
 }
@@ -321,6 +329,7 @@ i[class*='van-type-'] {
   font-weight: 600;
 }
 
+/* FOOTER */
 footer {
   min-height: 75px;
   background-color: #252525;
@@ -337,4 +346,121 @@ footer {
 footer > span {
   font-size: 23px;
   margin-right: 5px;
+}
+
+.host-van-link-wrapper {
+  color: unset;
+  text-decoration: unset;
+}
+
+.host-vans-list {
+  padding-inline: 26px;
+}
+
+.host-vans-title {
+  padding-inline: 26px;
+}
+
+.host-van-single {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 15px;
+  padding-block: 18px;
+  padding-left: 24px;
+}
+
+.host-van-single > img {
+  height: 70px;
+  border-radius: 5px;
+  margin-right: 17px;
+}
+
+.host-van-info h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-block: 10px;
+}
+
+.host-van-info p {
+  margin-block: 10px;
+}
+
+.host-van-detail-layout-container {
+  background-color: white;
+  padding: 24px;
+  margin: 30px 0;
+}
+
+.host-van-detail {
+  display: flex;
+  align-items: center;
+}
+
+.host-van-detail > img {
+  height: 160px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.host-van-detail-info-text > h3 {
+  margin-top: 24px;
+  margin-bottom: 5px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.host-van-detail-info-text > h4 {
+  font-size: 20px;
+  margin-block: 0;
+}
+
+.host-van-detail-nav {
+  display: flex;
+  margin-block: 25px;
+}
+
+.host-van-detail-nav a {
+  text-decoration: none;
+  color: #4d4d4d;
+  font-weight: 500;
+  padding: 5px 20px;
+}
+
+.host-van-detail-nav a:first-of-type {
+  text-decoration: none;
+  color: #4d4d4d;
+  font-weight: 500;
+  padding: 5px 15px;
+  margin-left: -15px;
+}
+
+.host-van-detail-nav a:hover {
+  color: #161616;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.host-van-detail-info > h4 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+}
+.host-van-detail-info > h4 > span {
+  font-weight: 500;
+}
+
+.host-van-detail-image {
+  height: 100px;
+  border-radius: 5px;
+}
+
+.host-van-price {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.host-van-price > span {
+  font-size: 16px;
+  color: #4d4d4d;
 }
