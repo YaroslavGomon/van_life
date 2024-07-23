@@ -479,3 +479,13 @@ footer > span {
   font-size: 16px;
   color: #4d4d4d;
 }
+
+.not-found-container {
+  padding-inline: 26px;
+}
+
+.not-found-container .link-button {
+  width: 100%;
+  background-color: #161616;
+  color: white;
+}

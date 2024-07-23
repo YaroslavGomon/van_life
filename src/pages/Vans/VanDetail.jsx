@@ -15,8 +15,6 @@ export default function VanDetail() {
   const search = location.state?.search || '';
   const typeFilter = location.state?.type || 'all';
 
-  console.log(search);
-
   return (
     <div className='van-detail-container'>
       <Link to={`..${search}`} relative='path' className='back-button'>
